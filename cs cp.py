@@ -47,8 +47,8 @@ if not st.session_state['logged_in']:
     col1, col2, col3 = st.columns([1, 2, 1])
     with col2:
         # PENGGUNAAN LOGO LOKAL
-        if os.path.exists("logo-puo.png"):
-            st.image("logo-puo.png", use_container_width=True)
+        if os.path.exists("logo-puo.png.png"):
+            st.image("logo-puo.png.png", use_container_width=True)
         else:
             # Fallback jika fail tiada
             st.image("https://upload.wikimedia.org/wikipedia/commons/0/03/Logo_Politeknik_Malaysia.png", width=250)
