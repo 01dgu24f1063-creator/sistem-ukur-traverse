@@ -1,3 +1,9 @@
-streamlit
+streamlit==1.54.0
+pandas
+numpy
 matplotlib
+requests
+geopandas
+folium
+streamlit-folium
 fpdf
